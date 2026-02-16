@@ -1,43 +1,19 @@
-@import "tailwindcss";
-
+@import "tailwindcss"; 
 @theme {
-
   
   --color-primary: #800080;
-  --color-primary-hover: #660066;
-  --color-primary-soft: #f5e6f7;
+  --color-primary-second: #a3ff6e;
 
-  
-  --color-accent: #a3ff6e;
-  --color-accent-hover: #8ae655;
-
-  /* 🧠 NEUTRALS (VERY IMPORTANT FOR DASHBOARD) */
   --color-secondary: #0D0D0D;
-  --color-secondary-soft: #2a2a2a;
-  --color-border: #e5e7eb;
+  --color-secondary-second: #d0d0d0;
 
- 
   --color-text: #666666;
-  --color-text-strong: #111111;
-  --color-text-muted: #9ca3af;
-
- 
   --color-background: #f9f9f9;
+
   --color-card: #ffffff;
-  --color-card-hover: #f3f4f6;
+  --color-card-hover: #f0f0f0;
 
-  --color-success: #22c55e;
-  --color-warning: #f59e0b;
-  --color-danger: #ef4444;
-  --color-info: #3b82f6;
-
-  --color-success-bg: #dcfce7;
-  --color-warning-bg: #fef3c7;
-  --color-danger-bg: #fee2e2;
-  --color-info-bg: #dbeafe;
-
-
-  /*  FONT SIZES (Use like text-16) */
+  /* FONT SIZES */
   --text-14: 14px;
   --text-15: 15px;
   --text-16: 16px;
@@ -49,8 +25,7 @@
   --text-40: 40px;
   --text-60: 60px;
 
-
-  /*  BORDER RADIUS */
+  /* BORDER RADIUS */
   --radius-6: 6px;
   --radius-8: 8px;
   --radius-10: 10px;
@@ -61,9 +36,12 @@
   --radius-40: 40px;
   --radius-50: 50px;
 
+  
+  --shadow-card: 0 4px 0 #0D0D0D;
+  --shadow-deep: 0 6px 1px #0D0D0D;
 
-  /* 🌑 SHADOWS */
-  --shadow-card: 0 4px 12px rgba(0,0,0,0.05);
-  --shadow-card-hover: 0 8px 20px rgba(0,0,0,0.08);
-  --shadow-deep: 0 10px 30px rgba(0,0,0,0.12);
+ 
+  
+  
 }
+
